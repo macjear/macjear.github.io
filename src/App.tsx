@@ -329,9 +329,9 @@ export default function App() {
                     className="space-y-5 pt-1"
                   >
                     <div className="space-y-4">
-                      <p className="text-lg md:text-base font-sans text-[var(--color-text-main)] leading-relaxed max-w-2xl opacity-90">
-                        helping teams build the <span className="font-semibold text-[var(--color-olive)]">right product</span> for the <span className="font-semibold text-[var(--color-olive)]">right people</span> with the<span className="font-semibold text-[var(--color-olive)]"> right tools</span>
-                      </p>
+                        <p className="font-sans text-sm text-[var(--color-text-muted)] tracking-widest mt-4">
+                            SPECIALIZING IN AUTOMATION, QA STRATEGY & CONTINUOUS TESTING
+                        </p>
                     </div>
                     
                     <button 
@@ -449,16 +449,16 @@ export default function App() {
                     </h2>
                     <div className="space-y-6 text-lg font-serif text-[var(--color-text-main)] leading-8">
                       <p>
-                        the best part of my job happens in the background - the bugs that never reached production, the edge cases flagged before design ever started, the questions in a discovery call that made someone pause and say <span className="font-semibold text-[var(--color-olive)]">"yeah, we'll have to think about that more."</span>
+                        The best part of my job happens in the background - the bugs that never reached production, the edge cases flagged before design ever started, the questions in a discovery call that made someone pause and say <span className="font-semibold text-[var(--color-olive)]">"yeah, we'll have to think about that more."</span>
                       </p>
                       <p className="opacity-90">
-                        having 10+ years in this field, i have learned a lot and what keeps me here isn't just the craft, it's the ownership and empathy for the product, for the people I work with (having my team's back at all times) and for whoever ends up on the other end of the screen.
+                        Having 10+ years in this field, i have learned a lot and what keeps me here isn't just the craft, it's the ownership and empathy for the product, for the people I work with (having my team's back at all times) and for whoever ends up on the other end of the screen.
                       </p>
                       <p className="opacity-90">
-                        testing for me, in a way is a form of advocacy, the one who keeps asking <span className="font-semibold text-[var(--color-olive)]">"but what if a user does this?"</span> when deployments are stacking up and everyone's moving fast. not to slow things down, but because i'd rather we catch it now than explain it later.
+                        Testing for me, in a way is a form of advocacy, the one who keeps asking <span className="font-semibold text-[var(--color-olive)]">"but what if a user does this?"</span> when deployments are stacking up and everyone's moving fast. not to slow things down, but because i'd rather we catch it now than explain it later.
                       </p>
                            <p className="opacity-90">
-                        beyond work, i collect miffys, drink too much matcha and spend weekends walking around with a camera ･ ༝ ･
+                        Beyond work, i collect miffys, drink lots of matcha and spend weekends walking around with a camera ･༝･
                       </p>
                     </div>
                   </section>
@@ -647,11 +647,19 @@ export default function App() {
                 <section className="space-y-8">
                   <h2 className="text-2xl font-serif text-[var(--color-olive)] flex items-center space-x-3">
                     <Brain className="w-5 h-5 opacity-70" />
-                    <span>why not just use ai?</span>
+                    <span>adapting in ai world</span>
                   </h2>
                   
+
+                  
+                  <div className="pt-8 border-t border-[var(--color-border)]">
+                    <p className="text-xl font-serif text-[var(--color-text-main)] leading-relaxed opacity-90">
+                      While AI manages the routine testing to enhance our efficiency, we focus on things that require human - evaluating the overall situation, connecting complex systems with actual user behavior and ensuring we deliver a product that the entire team can be proud of!
+                    </p>
+                  </div>
+
                   <p className="text-xl font-serif text-[var(--color-text-main)] leading-relaxed">
-                    AI can generate the test cases, but it can't tell you which ones <span className="font-semibold text-[var(--color-olive)] underline decoration-[var(--color-olive)] underline-offset-4">actually matter</span>.
+                    AI can generate the test cases or scripts, but it can't tell you which ones <span className="font-semibold text-[var(--color-olive)] underline decoration-[var(--color-olive)] underline-offset-4">actually matter</span>.
                   </p>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-12 pt-4">
@@ -661,19 +669,19 @@ export default function App() {
                       <ul className="space-y-4 font-sans text-[var(--color-text-main)] opacity-90">
                         <li className="flex items-start space-x-3">
                           <span className="text-[var(--color-olive)] mt-1">▹</span>
-                          <span>run scripts at scale</span>
+                          <span>Run scripts at scale</span>
                         </li>
                         <li className="flex items-start space-x-3">
                           <span className="text-[var(--color-olive)] mt-1">▹</span>
-                          <span>generate test case templates</span>
+                          <span>Generate test case templates</span>
                         </li>
                         <li className="flex items-start space-x-3">
                           <span className="text-[var(--color-olive)] mt-1">▹</span>
-                          <span>catch known pattern bugs</span>
+                          <span>Catch known pattern bugs</span>
                         </li>
                         <li className="flex items-start space-x-3">
                           <span className="text-[var(--color-olive)] mt-1">▹</span>
-                          <span>automate repetitive checks</span>
+                          <span>Automate repetitive checks</span>
                         </li>
                       </ul>
                     </div>
@@ -684,28 +692,22 @@ export default function App() {
                       <ul className="space-y-4 font-sans text-[var(--color-text-main)] opacity-90">
                         <li className="flex items-start space-x-3">
                           <span className="text-[var(--color-olive)] mt-1">▹</span>
-                          <span>sit in discovery, sense what's off</span>
+                          <span>Sit in discovery, sense what's off</span>
                         </li>
                         <li className="flex items-start space-x-3">
                           <span className="text-[var(--color-olive)] mt-1">▹</span>
-                          <span>advocate for users before code starts</span>
+                          <span>Advocate for users before code starts</span>
                         </li>
                         <li className="flex items-start space-x-3">
                           <span className="text-[var(--color-olive)] mt-1">▹</span>
-                          <span>understand why a bug matters</span>
+                          <span>Understand why a bug matters</span>
                         </li>
                         <li className="flex items-start space-x-3">
                           <span className="text-[var(--color-olive)] mt-1">▹</span>
-                          <span>being the data behind better release decisions</span>
+                          <span>Being the data behind better release decisions</span>
                         </li>
                       </ul>
                     </div>
-                  </div>
-
-                  <div className="pt-8 border-t border-[var(--color-border)]">
-                    <p className="text-lg font-serif text-[var(--color-text-main)] leading-relaxed opacity-90">
-                      while AI manages the routine testing to enhance our efficiency, we focus on things that require human - evaluating the overall situation, connecting complex systems with actual user behavior and ensuring we deliver a product that the entire team can be proud of! :)
-                    </p>
                   </div>
                 </section>
               </motion.div>
@@ -727,7 +729,7 @@ export default function App() {
                     <span>things i've built, broken and fixed</span>
                   </h2>
                   <p className="text-lg font-serif text-[var(--color-text-main)] leading-relaxed opacity-90">
-                    asides my manual tasks, i enjoy building internal tools that help our team's life easier, here are some solutions i've implemented to streamline our workflows:
+                    Asides my manual tasks, i enjoy building internal tools that help our team's life easier, here are some solutions i've implemented to streamline our workflows:
                   </p>
                 </section>
 
@@ -780,21 +782,24 @@ export default function App() {
                     <Mail className="w-5 h-5 opacity-70" />
                     <span>let's chat</span>
                   </h2>
-                  <div className="space-y-4 text-lg font-serif text-[var(--color-text-main)] leading-relaxed max-w-lg opacity-90">
+                  <div className="space-y-4 text-xl font-serif text-[var(--color-text-main)] leading-relaxed max-w-lg opacity-90">
                     <p>
-                      got a product that needs someone asking the hard questions?
+                      Got a product that needs someone asking the hard questions?
                     </p>
                     <p>
-                      i'm always open for collaboration! whether you want to chat on a project, talk about testing frameworks, or anything about life, matcha, and miffy. my inbox is always open ･ ༝ ･
+                      Whether you want to chat on a project, talk about testing frameworks, or anything about life, matcha, and miffy. 
+                    </p>
+                    <p>
+                      My inbox is always open ･ ༝ ･
                     </p>
                   </div>
                   
                   <div className="pt-8 flex items-center space-x-8">
                     <a 
-                      href="mailto:hello@example.com" 
+                      href="mailto:jahdiel.macatangay09@gmail.com" 
                       className="inline-flex items-center space-x-3 font-sans text-[var(--color-text-main)] hover:text-[var(--color-olive)] transition-colors border border-[var(--color-border)] hover:border-[var(--color-olive)] px-6 py-3"
                     >
-                      <span>say hello</span>
+                      <span>Say hello!</span>
                       <ArrowRight className="w-4 h-4" />
                     </a>
                     
