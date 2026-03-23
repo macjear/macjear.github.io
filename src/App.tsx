@@ -596,7 +596,7 @@ export default function App() {
                           <h3 className="text-xl font-serif text-[var(--color-text-main)] group-hover:text-[var(--color-olive)] transition-colors">
                             {job.role}
                           </h3>
-                          <div className="text-lg text-[var(--color-text-muted)] mt-1">
+                          <div className="text-xl text-[var(--color-text-muted)] mt-1">
                             {job.company}
                           </div>
                         </div>
@@ -728,7 +728,7 @@ export default function App() {
                     <Wrench className="w-5 h-5 opacity-70" />
                     <span>things i've built, broken and fixed</span>
                   </h2>
-                  <p className="text-lg font-serif text-[var(--color-text-main)] leading-relaxed opacity-90">
+                  <p className="text-xl font-serif text-[var(--color-text-main)] leading-relaxed opacity-90">
                     Asides my manual tasks, i enjoy building internal tools that help our team's life easier, here are some solutions i've implemented to streamline our workflows:
                   </p>
                 </section>
@@ -747,7 +747,7 @@ export default function App() {
                           <Icon className="w-8 h-8" />
                         </div>
                         
-                        <h3 className="text-lg font-serif text-[var(--color-text-main)] mb-3 group-hover:text-[var(--color-olive)] transition-colors">
+                        <h3 className="text-xl font-serif text-[var(--color-text-main)] mb-3 group-hover:text-[var(--color-olive)] transition-colors">
                           {tool.title}
                         </h3>
                         <p className="text-[var(--color-text-muted)] mb-6 text-sm leading-relaxed flex-grow">
