@@ -526,7 +526,7 @@ export default function App() {
                 </div>
                 
                 <a
-                  href="#"
+                  href="https://drive.google.com/file/d/195g2ohPvav-YOdP6-BXTWSl2j1BOTYl7/view?usp=sharing"
                   className="group flex items-center gap-2 text-sm text-theme-muted hover:text-theme-accent transition-colors pb-1 border-b border-transparent hover:border-theme-accent/50"
                   download
                 >
