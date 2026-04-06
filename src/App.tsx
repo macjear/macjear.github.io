@@ -176,15 +176,15 @@ export default function App() {
 
   const SKILLS_DATA = [
     { title: 'Automation Framework', icon: Cpu, skills: ['Selenium', 'Playwright', 'TestNG', 'Cucumber', 'Maven', 'Junit'] },
-    { title: 'Programming Language', icon: Code2, skills: ['Java', 'Python', 'JavaScript', 'AppScript'] },
-    { title: 'AI Related', icon: Brain, skills: ['GitHub Copilot', 'Cursor', 'GenAI Test Design', 'Model Validation', 'AI Reporting'] },
+    { title: 'Programming Language', icon: Code2, skills: ['Java', 'Python', 'Javascript', 'Typescript', 'AppScript'] },
+    { title: 'AI Tools', icon: Brain, skills: ['GitHub Copilot', 'Claude Code', 'Testim','Applitools'] },
     { title: 'API Testing', icon: Sparkles, skills: ['Postman', 'REST Assured', 'SoapUI'] },
     { title: 'CI/CD Tools', icon: GitBranch, skills: ['Jenkins', 'GitLab CI', 'GitHub Actions'] },
     { title: 'Performance Testing', icon: Activity, skills: ['Jmeter', 'Taurus'] },
     { title: 'Mobile & Database', icon: Smartphone, skills: ['Appium', 'Emulators', 'Postgres', 'Oracle', 'MySQL'] },
-    { title: 'Infrastructure', icon: Cloud, skills: ['AWS', 'Azure'] },
+    { title: 'Infrastructure', icon: Cloud, skills: ['AWS', 'Azure','Docker'] },
     { title: 'Testing Management', icon: Layers, skills: ['JIRA', 'HPQCALM', 'Rally', 'Confluence', 'Teams'] },
-    { title: 'IDE & Process', icon: Monitor, skills: ['IntelliJ', 'Visual Studio', 'Agile'] },
+    { title: 'IDE', icon: Monitor, skills: ['IntelliJ', 'Visual Studio'] },
   ];
 
   return (
@@ -306,8 +306,7 @@ export default function App() {
               <div className="flex items-center divide-x divide-theme-muted/10 border border-theme-muted/10 rounded-lg overflow-hidden w-fit mt-2">
                 <div className="px-4 py-2 text-xs font-mono text-theme-accent tracking-widest">10+ yrs</div>
                 <div className="px-4 py-2 text-xs font-mono text-theme-muted tracking-widest">AI-driven</div>
-                <div className="px-4 py-2 text-xs font-mono text-theme-muted tracking-widest">Fintech, ETL & SaaS</div>
-  
+                <div className="px-4 py-2 text-xs font-mono text-theme-muted tracking-widest">ETL & SaaS</div>
               </div>
 
               <div className="flex flex-col max-w-2xl">
@@ -320,13 +319,6 @@ export default function App() {
                   <p>I don't want QA to be the bottleneck. Across every team I've worked with, the challenges are the same: matching deployment speeds, scaling complex infrastructure, and spending way too much time fixing old scripts.</p>
                   <p>My goal is to turn AI potential into practical results, using self-healing automation and predictive risk assessment to enable faster, more confident delivery.</p>
                   <p>I'm currently leaning into AI-driven testing and creating proactive, low-maintenance testing solutions, particularly in ETL and SaaS space.</p>
-                </div>
-
-                <div className="flex items-start gap-3 mt-6 pt-6 border-t border-theme-muted/10">
-                  <div className="w-1 h-1 rounded-full bg-amber-600/70 mt-2 shrink-0" />
-                  <p className="text-xs sm:text-sm text-theme-muted/60 leading-relaxed font-mono tracking-wide">
-                    Beyond work, i collect Miffy things, drink lots of matcha, try new recipes and enjoy weekend walks with a camera.
-                  </p>
                 </div>
 
               </div>
@@ -511,8 +503,17 @@ export default function App() {
                   Whether you need some extra hands, rethinking your automation strategy, or exploring AI-driven testing, let's chat.
                 </p>
               </div>
+
+              <a
+                  href="https://drive.google.com/file/d/195g2ohPvav-YOdP6-BXTWSl2j1BOTYl7/view?usp=sharing"
+                  className="group flex items-center gap-2 text-sm text-theme-muted hover:text-theme-accent transition-colors pb-1 border-b border-transparent hover:border-theme-accent/50"
+                  download
+                >
+                  <Download className="w-4 h-4 group-hover:-translate-y-0.5 transition-transform" aria-hidden="true" />
+                  <span>Download CV</span>
+                </a>
               
-              <div className="pt-8 flex flex-col items-center gap-8">
+              <div className="pt-3 flex flex-col items-center gap-8">
                 <div className="flex items-center justify-center space-x-4">
                   <a href="mailto:jahdiel.macatangay09@gmail.com" aria-label="Email Contact" className="p-3 glass-pill rounded-full text-theme-muted hover:text-theme-main transition-colors focus-visible:ring-2 focus-visible:ring-theme-accent focus-visible:outline-none">
                     <Mail className="w-5 h-5" aria-hidden="true" />
@@ -524,15 +525,6 @@ export default function App() {
                     <Linkedin className="w-5 h-5" aria-hidden="true" />
                   </a>
                 </div>
-                
-                <a
-                  href="https://drive.google.com/file/d/195g2ohPvav-YOdP6-BXTWSl2j1BOTYl7/view?usp=sharing"
-                  className="group flex items-center gap-2 text-sm text-theme-muted hover:text-theme-accent transition-colors pb-1 border-b border-transparent hover:border-theme-accent/50"
-                  download
-                >
-                  <Download className="w-4 h-4 group-hover:-translate-y-0.5 transition-transform" aria-hidden="true" />
-                  <span>Download Resume</span>
-                </a>
               </div>
             </section>
 
